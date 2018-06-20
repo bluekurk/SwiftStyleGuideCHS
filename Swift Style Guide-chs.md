@@ -324,8 +324,7 @@ public func index<Elements: Collection, Element>(of element: Element,  // AVOID.
 <td></td>
 <td bgcolor=#FFE0B2> )</td>
 <td>{</td>
-</tr></table>
->   
+</tr></table>   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers func name </i>(</td>
 <td></td>
@@ -335,8 +334,7 @@ public func index<Elements: Collection, Element>(of element: Element,  // AVOID.
 <td></td>
 <td bgcolor=#BBDEFB> <i>result </i></td>
 <td>{</td>
-</tr></table>
->   
+</tr></table>   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers func name </i><</td>
 <td></td>
@@ -346,11 +344,10 @@ public func index<Elements: Collection, Element>(of element: Element,  // AVOID.
 <td></td>
 <td bgcolor=#BBDEFB> <i>formal arguments </i></td>
 <td></td>
-<td bgcolor=#FFE0B2> ) throws -></td>
+<td bgcolor=#FFE0B2> ) throws -> </td>
 <td></td>
 <td bgcolor=#BBDEFB> <i>result </i></td>
 <td>{</td>
->   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers func name </i><</td>
 <td></td>
@@ -425,7 +422,6 @@ public func performanceTrackingIndex<Elements: Collection, Element>(
 <td></td>
 <td>{</td>
 </tr></table>
->   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers class name: </i></td>
 <td></td>
@@ -433,7 +429,6 @@ public func performanceTrackingIndex<Elements: Collection, Element>(
 <td></td>
 <td>{</td>
 </tr></table>
->   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers class name <</i></td>
 <td></td>
@@ -444,7 +439,6 @@ public func performanceTrackingIndex<Elements: Collection, Element>(
 <td bgcolor=#BBDEFB> <i>superclass and protocols </i></td>
 <td></td>
 <td>{</td>
->   
 <table><tr>
 <td bgcolor=#FFE0B2 ><i>modifiers class name <</i></td>
 <td></td>
@@ -459,6 +453,7 @@ public func performanceTrackingIndex<Elements: Collection, Element>(
 <td bgcolor=#BBDEFB><i>generic constraints </i></td>
 <td>{</td>
 </tr></table>
+
 
 ```swift
 class MyClass:
@@ -2089,5 +2084,6 @@ func execute(command: String, stdin: String) -> String {
 但是，引用这个例外来证明忽略典型读者可能需要知道的相关信息是*不*合适的。 例如，对于一个名为canonicalName的属性，如果一个典型的读者可能不知道术语“canonical name”在上下文的含义是什么，那么不要省略它的文档(以“它只会说 ///The canonical name”的理由)。 使用文档作为定义该术语的机会。
 
 
-[原始英文链接](https://google.github.io/swift/#apples-api-style-guidelines)
+[原始英文链接](https://google.github.io/swift/)
+
 感谢 [Swift 老司机](https://github.com/SwiftOldDriver) 带路
