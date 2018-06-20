@@ -317,7 +317,7 @@ public func index<Elements: Collection, Element>(of element: Element,  // AVOID.
 
 ##### 函数声明
 
-> <table><tr>  
+<table><tr>  
 <td bgcolor=#FFE0B2 ><i>modifiers func name </i>(</td>
 <td></td>
 <td bgcolor=#BBDEFB> <i>formal arguments </i></td>
@@ -417,7 +417,7 @@ public func performanceTrackingIndex<Elements: Collection, Element>(
 ##### 类型和扩展声明(Type and Extension Declarations)
 下面的例子同样地适用于 class, struct, enum, extension 和 protocol (明显的例外是仅 class 在继承列表里有超类，其他没有。除此以外它们的结构是相似的)
 
-> <table><tr>  
+<table><tr>  
 <td bgcolor=#FFE0B2 ><i>modifiers class name </i></td>
 <td></td>
 <td>{</td>
